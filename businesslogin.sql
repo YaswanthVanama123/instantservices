@@ -1,0 +1,6 @@
+
+CREATE TABLE IF NOT EXISTS businesslogin(
+    bid INTEGER PRIMARY KEY AUTOINCREMENT,
+    email_id VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(100) 
+);
